@@ -1,0 +1,14 @@
+GET http://localhost:3333/customers
+
+###
+POST http://localhost:3333/customer
+Content-Type: application/json
+
+{
+  "name": "luana",
+  "email": "luana@test.com",
+  "status": "ativo"
+}
+
+###
+DELETE http://localhost:3333/customer/6548451bda30e602563bbf59
